@@ -2,8 +2,9 @@
 
 Original youtube video: https://www.youtube.com/watch?v=TvlpIojusBE
 
-
-![LED image](/resources/LEDDistribution.png?raw=true)
+<p align="center">
+<img src="/resources/LEDDistribution.png?raw=true"/>
+</p>
 
 The following code is not tested on any real hardware.
 
@@ -17,20 +18,23 @@ Create a simple equalizer visualization and display it on the tree
 3. The leds are sorted into n buckets based on a line drawn from the to the middle of the tree.
 4. The precomputed values are played back in real time.
 
-Not normalized spectogram
+### Not normalized spectogram
 
-![Not normalized spectogram](/resources/compact.gif?raw=true)
+<p align="center">
+<img src="/resources/compact.gif?raw=true" alt="Not normalized spectogram"/>
+</p>
 
-LED bucket index
+### LED bucket index
 
-![LED bucket index](/resources/ChristmasSong.png?raw=true)
-
+<p align="center">
+<img src="/resources/ChristmasSong.png?raw=true" alt="LED bucket index"/>
+</p>
 
 Required:
 
 - Use a sound file which is at least 30 seconds long
 
-''' bash
+``` sh
 
     pip install cffi
     pip install numpy
@@ -41,8 +45,7 @@ Required:
 
     # If using conda use 
     conda install -c conda-forge pysoundfile
-
-'''
+```
 
 
 ## Game of live
